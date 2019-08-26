@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "825784269385",
+    "firebase_url": "https://tu-hoc-online.firebaseio.com",
+    "project_id": "tu-hoc-online",
+    "storage_bucket": "tu-hoc-online.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825784269385:android:920e3705be094700",
+        "android_client_info": {
+          "package_name": "com.tuhoconline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "825784269385-ej9ifk1tsk9i3m8k9a1m5rkgr3u92d68.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tuhoconline",
+            "certificate_hash": "a7dccc04cc2b2cc02eb66c94af50663d81d0d648"
+          }
+        },
+        {
+          "client_id": "825784269385-n736ot50tncsode0ji08eppjrvgr5q27.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8G5TtfT5w2qoiwzOpsE1xzW3z9iPR5Ho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "825784269385-n736ot50tncsode0ji08eppjrvgr5q27.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
