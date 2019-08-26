@@ -71,7 +71,7 @@ PODS:
   - Protobuf (3.9.0)
   - React (0.59.5):
     - React/Core (= 0.59.5)
-  - react-native-youtube (1.1.0):
+  - react-native-webview (5.12.1):
     - React
   - React/Core (0.59.5):
     - yoga (= 0.59.5.React)
@@ -116,7 +116,7 @@ PODS:
     - React/Core
     - React/fishhook
     - React/RCTBlob
-  - XCDYouTubeKit (2.7.8)
+  - XCDYouTubeKit (2.8.0)
   - yoga (0.59.5.React)
 
 DEPENDENCIES:
@@ -125,7 +125,7 @@ DEPENDENCIES:
   - Firebase/Messaging (~> 5.20.2)
   - Folly (from `../node_modules/react-native/third-party-podspecs/Folly.podspec`)
   - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
-  - react-native-youtube (from `../node_modules/react-native-youtube`)
+  - react-native-webview (from `../node_modules/react-native-webview`)
   - React/Core (from `../node_modules/react-native`)
   - React/CxxBridge (from `../node_modules/react-native`)
   - React/DevSupport (from `../node_modules/react-native`)
@@ -161,8 +161,8 @@ EXTERNAL SOURCES:
     :podspec: "../node_modules/react-native/third-party-podspecs/glog.podspec"
   React:
     :path: "../node_modules/react-native"
-  react-native-youtube:
-    :path: "../node_modules/react-native-youtube"
+  react-native-webview:
+    :path: "../node_modules/react-native-webview"
   yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -181,11 +181,11 @@ SPEC CHECKSUMS:
   GoogleUtilities: 04fce34bcd5620c1ee76fb79172105c74a4df335
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
   Protobuf: 1097ca58584c8d9be81bfbf2c5ff5975648dd87a
-  React: 81e2ace71ccd07c33f2075ac18d10fc06c41ceda
-  react-native-youtube: 37585101d2a97149fb572f1b8ae48c28cea4a3ae
-  XCDYouTubeKit: 43843b87c143120fdcbd908e031258ea60f7ba0a
+  React: 90adac468c7b72bf1fa6c64bf230650f851a8388
+  react-native-webview: 5036ed4a973ad1deeeff118262d2df7b60b3419d
+  XCDYouTubeKit: 207fa50f3648fc0fd1558b2496c74c3b34af982c
   yoga: 2e571f113e8cbeb0eb752aeebc86c1bfe7a8200c
 
-PODFILE CHECKSUM: 2621a75fc2f77135608b94a2c47be6d861a38db3
+PODFILE CHECKSUM: 1d320e25960aabb14a173c6204eb1eeb07f182b5
 
-COCOAPODS: 1.7.2
+COCOAPODS: 1.7.3

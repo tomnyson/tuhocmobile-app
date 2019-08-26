@@ -5,6 +5,7 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
@@ -44,7 +45,6 @@
 		41397F29065153F77AB04800 /* Pods_tuhoconline_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 915159B4DA987666F4A292D9 /* Pods_tuhoconline_tvOS.framework */; };
 		460AA0B322B6383D00F28958 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 		4612201222F2B7F200140EF7 /* XCDYouTubeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4612201122F2B7F200140EF7 /* XCDYouTubeKit.framework */; };
-		469ED32722F2B09B008ABC7C /* YTPlayerView-iframe-player.html in Resources */ = {isa = PBXBuildFile; fileRef = 469ED2F722F2B09A008ABC7C /* YTPlayerView-iframe-player.html */; };
 		4A4F3FA8EF264AB0A090B51F /* Roboto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEA1E44A758B42AC9C69DE40 /* Roboto.ttf */; };
 		5501F96A470948A9BDA8BDF5 /* libRNVectorIcons-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBD2111DA72441269D0A16D0 /* libRNVectorIcons-tvOS.a */; };
 		5C15BA2AC6A442F2B7CECB01 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13F9F8E6414B43A6BF5F1361 /* FontAwesome5_Solid.ttf */; };
@@ -1501,7 +1501,6 @@
 				23BA26AC242946A28BAAF538 /* rubicon-icon-font.ttf in Resources */,
 				B5675A9BAD8446C381CD3BC1 /* SimpleLineIcons.ttf in Resources */,
 				33D22B2708A34BFF98B5E9E8 /* Zocial.ttf in Resources */,
-				469ED32722F2B09B008ABC7C /* YTPlayerView-iframe-player.html in Resources */,
 				843C313222AE0A8F00B72B67 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1536,7 +1535,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1655,7 +1654,7 @@
 				"${BUILT_PRODUCTS_DIR}/XCDYouTubeKit/XCDYouTubeKit.framework",
 				"${BUILT_PRODUCTS_DIR}/glog/glog.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
-				"${BUILT_PRODUCTS_DIR}/react-native-youtube/react_native_youtube.framework",
+				"${BUILT_PRODUCTS_DIR}/react-native-webview/react_native_webview.framework",
 				"${BUILT_PRODUCTS_DIR}/yoga/yoga.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -1668,7 +1667,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XCDYouTubeKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/glog.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/react_native_youtube.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/react_native_webview.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yoga.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

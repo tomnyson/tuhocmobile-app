@@ -169,7 +169,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/XCDYouTubeKit/XCDYouTubeKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/glog/glog.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/react-native-youtube/react_native_youtube.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/react-native-webview/react_native_webview.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/yoga/yoga.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
@@ -181,7 +181,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/XCDYouTubeKit/XCDYouTubeKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/glog/glog.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/react-native-youtube/react_native_youtube.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/react-native-webview/react_native_webview.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/yoga/yoga.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
