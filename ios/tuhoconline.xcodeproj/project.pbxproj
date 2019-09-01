@@ -42,7 +42,6 @@
 		2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
 		33D22B2708A34BFF98B5E9E8 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D1A736C4AAA94831BD8D26FD /* Zocial.ttf */; };
 		392673BFD41F4DC7A5CDC597 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 034B07816E07484FBE2B1E0C /* MaterialCommunityIcons.ttf */; };
-		41397F29065153F77AB04800 /* Pods_tuhoconline_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 915159B4DA987666F4A292D9 /* Pods_tuhoconline_tvOS.framework */; };
 		460AA0B322B6383D00F28958 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 		4612201222F2B7F200140EF7 /* XCDYouTubeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4612201122F2B7F200140EF7 /* XCDYouTubeKit.framework */; };
 		4A4F3FA8EF264AB0A090B51F /* Roboto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEA1E44A758B42AC9C69DE40 /* Roboto.ttf */; };
@@ -50,7 +49,6 @@
 		5C15BA2AC6A442F2B7CECB01 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13F9F8E6414B43A6BF5F1361 /* FontAwesome5_Solid.ttf */; };
 		6C9EA5388E724B8C9E8E3434 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B53C5683D5443789FD98220 /* Feather.ttf */; };
 		70E7FCC50B764F1185ADE230 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B51BB36BC2348B595D0176C /* FontAwesome.ttf */; };
-		78BDE872B7FFE340B8BD58D5 /* Pods_tuhoconlineTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F7E24CAE70F052ECACF26A /* Pods_tuhoconlineTests.framework */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		83CCE9BA3F9B4CE99BDA04FC /* libRNCAsyncStorage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DEB79047DC2A419DBC7C7789 /* libRNCAsyncStorage.a */; };
 		843C313222AE0A8F00B72B67 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 843C313122AE0A8E00B72B67 /* GoogleService-Info.plist */; };
@@ -76,7 +74,6 @@
 		EA8CAC15270F458E82B23D75 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 98FAB79BFA6E4D2E8F726E49 /* Octicons.ttf */; };
 		ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
 		ED2971652150620600B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2971642150620600B7C4FE /* JavaScriptCore.framework */; };
-		EFC7FDAB71316CC1F3F0928D /* Pods_tuhoconline_tvOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5159C74DA44631BFDFB3088F /* Pods_tuhoconline_tvOSTests.framework */; };
 		F787E6751E6B44FF869BBC7E /* libRNGestureHandler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA75EE23A8A84C92954E2BF6 /* libRNGestureHandler.a */; };
 		F8FD805F07684A99A9FA71D9 /* Roboto_medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8ADD04AEA2624414804FF2F0 /* Roboto_medium.ttf */; };
 /* End PBXBuildFile section */
@@ -451,13 +448,14 @@
 		32F7E24CAE70F052ECACF26A /* Pods_tuhoconlineTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tuhoconlineTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B51BB36BC2348B595D0176C /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/native-base/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
 		3B53C5683D5443789FD98220 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/native-base/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		3D74B37A1FAE094BB66DE26A /* Pods-tuhoconline.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tuhoconline.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tuhoconline/Pods-tuhoconline.debug.xcconfig"; sourceTree = "<group>"; };
+		3DFCDC276086AB8624606ECD /* Pods-tuhoconline.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tuhoconline.release.xcconfig"; path = "Pods/Target Support Files/Pods-tuhoconline/Pods-tuhoconline.release.xcconfig"; sourceTree = "<group>"; };
 		3F668F6D252DE0F89BE35AB4 /* Pods-tuhoconline-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tuhoconline-tvOS.release.xcconfig"; path = "Target Support Files/Pods-tuhoconline-tvOS/Pods-tuhoconline-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		3FFA837736AE4230B073E39A /* RNImagePicker.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNImagePicker.xcodeproj; path = "../node_modules/react-native-image-picker/ios/RNImagePicker.xcodeproj"; sourceTree = "<group>"; };
 		42A96C37E8D5C42CD0AB77DE /* Pods-tuhoconline.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tuhoconline.debug.xcconfig"; path = "Target Support Files/Pods-tuhoconline/Pods-tuhoconline.debug.xcconfig"; sourceTree = "<group>"; };
 		44314F07B74A0C9C91FC97B9 /* Pods-tuhoconline-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tuhoconline-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-tuhoconline-tvOSTests/Pods-tuhoconline-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		45E9830F0EF84979AD421AB6 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/native-base/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
 		4612201122F2B7F200140EF7 /* XCDYouTubeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = XCDYouTubeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		469ED2F722F2B09A008ABC7C /* YTPlayerView-iframe-player.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "YTPlayerView-iframe-player.html"; path = "../node_modules/react-native-youtube/assets/YTPlayerView-iframe-player.html"; sourceTree = "<group>"; };
 		476D2D4A64B54F0EA895971B /* rubicon-icon-font.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "rubicon-icon-font.ttf"; path = "../node_modules/native-base/Fonts/rubicon-icon-font.ttf"; sourceTree = "<group>"; };
 		5159C74DA44631BFDFB3088F /* Pods_tuhoconline_tvOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tuhoconline_tvOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
@@ -514,7 +512,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */,
-				78BDE872B7FFE340B8BD58D5 /* Pods_tuhoconlineTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -535,9 +532,9 @@
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
 				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
 				00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */,
-				00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */,
 				133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */,
 				00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */,
+				00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */,
 				139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */,
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
@@ -568,7 +565,6 @@
 				2D02E4C81E0B4AEC006451C7 /* libRCTWebSocket-tvOS.a in Frameworks */,
 				5501F96A470948A9BDA8BDF5 /* libRNVectorIcons-tvOS.a in Frameworks */,
 				B66D8A58B95D4CD8B4B9782A /* libRNGestureHandler-tvOS.a in Frameworks */,
-				41397F29065153F77AB04800 /* Pods_tuhoconline_tvOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,7 +573,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */,
-				EFC7FDAB71316CC1F3F0928D /* Pods_tuhoconline_tvOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -778,7 +773,6 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				469ED2F722F2B09A008ABC7C /* YTPlayerView-iframe-player.html */,
 				843C313122AE0A8E00B72B67 /* GoogleService-Info.plist */,
 				13B07FAE1A68108700A75B9A /* tuhoconline */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
@@ -891,6 +885,8 @@
 				64CD9C968D0B60CBDB1AC99F /* Pods-tuhoconline-tvOSTests.release.xcconfig */,
 				AF84A022AF4EA40944C3634D /* Pods-tuhoconlineTests.debug.xcconfig */,
 				F3349A69E0DB0EDC4EC8E773 /* Pods-tuhoconlineTests.release.xcconfig */,
+				3D74B37A1FAE094BB66DE26A /* Pods-tuhoconline.debug.xcconfig */,
+				3DFCDC276086AB8624606ECD /* Pods-tuhoconline.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -936,7 +932,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "tuhoconlineTests" */;
 			buildPhases = (
-				60EE66E1DCA55711E6B6BCE4 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -975,7 +970,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "tuhoconline-tvOS" */;
 			buildPhases = (
-				5988BFEB3A2140C888F2CD41 /* [CP] Check Pods Manifest.lock */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
 				2D02E4791E0B4A5D006451C7 /* Resources */,
@@ -994,7 +988,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "tuhoconline-tvOSTests" */;
 			buildPhases = (
-				6ECE651754B8F1B3ECE6148C /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -1024,6 +1017,7 @@
 					};
 					13B07F861A680F5B00A75B9A = {
 						DevelopmentTeam = 6YY267PU9Q;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -1551,86 +1545,16 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		5988BFEB3A2140C888F2CD41 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-tuhoconline-tvOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		60EE66E1DCA55711E6B6BCE4 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-tuhoconlineTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6ECE651754B8F1B3ECE6148C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-tuhoconline-tvOSTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		9206D00299542173931C7B04 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-tuhoconline-checkManifestLockResult.txt",
 			);
@@ -1645,9 +1569,10 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-tuhoconline/Pods-tuhoconline-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-tuhoconline/Pods-tuhoconline-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/DoubleConversion/DoubleConversion.framework",
 				"${BUILT_PRODUCTS_DIR}/Folly/folly.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
 				"${BUILT_PRODUCTS_DIR}/React/React.framework",
@@ -1661,6 +1586,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DoubleConversion.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/folly.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React.framework",
@@ -1672,7 +1598,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tuhoconline/Pods-tuhoconline-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tuhoconline/Pods-tuhoconline-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1742,7 +1668,6 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF84A022AF4EA40944C3634D /* Pods-tuhoconlineTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1780,7 +1705,6 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F3349A69E0DB0EDC4EC8E773 /* Pods-tuhoconlineTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -1815,10 +1739,12 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 42A96C37E8D5C42CD0AB77DE /* Pods-tuhoconline.debug.xcconfig */;
+			baseConfigurationReference = 3D74B37A1FAE094BB66DE26A /* Pods-tuhoconline.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = tuhoconline/tuhoconline.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = 6YY267PU9Q;
@@ -1875,17 +1801,20 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.tuhoconline;
 				PRODUCT_NAME = tuhoconline;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CDF2EECEFBE36B74E735F27F /* Pods-tuhoconline.release.xcconfig */;
+			baseConfigurationReference = 3DFCDC276086AB8624606ECD /* Pods-tuhoconline.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = tuhoconline/tuhoconline.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6YY267PU9Q;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1943,14 +1872,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.tuhoconline;
 				PRODUCT_NAME = tuhoconline;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7C50AABD60DA18F87FCB056 /* Pods-tuhoconline-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1993,7 +1922,6 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F668F6D252DE0F89BE35AB4 /* Pods-tuhoconline-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -2036,7 +1964,6 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 44314F07B74A0C9C91FC97B9 /* Pods-tuhoconline-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -2078,7 +2005,6 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 64CD9C968D0B60CBDB1AC99F /* Pods-tuhoconline-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;

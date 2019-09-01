@@ -2,8 +2,11 @@
  platform :ios, '9.0'
 
 target 'tuhoconline' do
-  pod 'Firebase/Core', '~> 5.20.2'
-  pod 'Firebase/Messaging', '~> 5.20.2'
+  pod 'Firebase/Core', '~> 6.3.0'
+  pod 'GoogleToolboxForMac'
+  pod 'GoogleAppMeasurement'
+  pod 'GoogleIDFASupport', '~> 3.14.0'
+  pod 'Firebase/Messaging', '~> 6.3.0'
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
@@ -14,7 +17,7 @@ target 'tuhoconline' do
     'DevSupport', # Include this to enable In-App Devmenu if RN >= 0.43
     'RCTText',
     'RCTNetwork',
-    'RCTWebSocket', # needed for debugging
+    'RCTWebSocket', # needed` for debugging
     'RCTImage',
     'RCTWebSocket', # Needed for debugging
     'RCTAnimation', # Needed for FlatList and animations running on native UI thread
@@ -35,27 +38,14 @@ target 'tuhoconline' do
   pod 'react-native-webview', :path => '../node_modules/react-native-webview'
 
   post_install do |installer|
-    
-    system("mkdir -p Pods/Headers/Public/FirebaseCore && cp Pods/FirebaseCore/Firebase/Core/Public/* Pods/Headers/Public/FirebaseCore/")
-  end
-
-
-  target 'tuhoconlineTests' do
-    inherit! :search_paths
-    # Pods for testing
+    installer.pods_project.targets.each do |target|
+      if target.name == "React"
+        target.remove_from_project
+      end
+    end
   end
 
 end
 
-target 'tuhoconline-tvOS' do
-  # Comment the next line if you don't want to use dynamic frameworks
-  use_frameworks!
 
-  # Pods for tuhoconline-tvOS
 
-  target 'tuhoconline-tvOSTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-end
